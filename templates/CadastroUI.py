@@ -5,7 +5,7 @@ import time
 
 class CadastroUI:
   def main():
-     st.header("Clientes")
+     st.header("Cadastrar-se")
      CadastroUI.inserir()
   def inserir():
     nome = st.text_input("Informe seu nome")
